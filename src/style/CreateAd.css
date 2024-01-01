@@ -1,0 +1,128 @@
+.createAdSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 80%;
+
+  gap: 40px;
+  /* border: 1px solid black; */
+  /* width: 50%; */
+
+}
+.main-div{
+    background-color:rgb(239, 237, 237);
+    height: 85vh;
+    width: 100vw;
+   padding-top: 30px;
+}
+
+.createAds{
+    height: 80vh;
+    width: 90%;
+  
+    margin:  auto;
+
+    border: 1px solid black;
+  display: flex;
+  background-color: white;
+ 
+  flex-direction: column;
+  
+
+
+}
+
+.HeadingAd{
+    
+    margin: 10px;
+}
+
+.TextAd{
+    height: 100%;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);;
+
+}
+.imgSection .textImg {
+    width: 100%;
+
+}
+.checkbox{
+   height: 25px;
+
+   margin-top: 10px;
+}
+.CheckboxSection{
+    display: flex;
+}
+
+.imgSection{
+margin: 20px;
+height: 60%;
+/* height: 60px; */
+}
+.imgSection img{
+    height: 100%;
+    border-radius: 10px;
+}
+
+.LastSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(239, 237, 237);
+   /* margin-top: 100px; */
+   height: 20%;
+
+    flex-direction: column;
+}
+.BlueBtn{
+    background-color: rgb(11, 11, 240);
+    color: white;
+    border: none;
+    padding: 6px 30px;
+    border-radius: 4px;
+    float: right;
+    
+    margin-right: 20px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .createAdSection{
+        display: flex;
+        flex-direction: column;
+    }
+    .createAds{
+
+        height: 100vh;
+    }
+    .TextAd{
+        height: 50%;
+    }
+    .imgSection{
+        margin: 20px;
+        height: 50%;
+        /* height: 60px; */
+        }
+        .imgSection img{
+            height: 100%;
+
+            border-radius: 10px;
+        }
+}
+
+@media only screen and (max-width: 740px) {
+
+    .TextAd{
+        width: 50%;
+    }
+    .createAds{
+        height: 90vh;
+    }
+    .BlueBtn button{
+        margin-top: 20px;
+    }
+}

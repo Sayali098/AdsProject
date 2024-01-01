@@ -1,0 +1,98 @@
+
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px ;
+    margin-left: 20px;
+    background-color: white;
+    border: 1px solid black;
+  }
+
+  th, td {
+    border-bottom: 1px solid #ddd;
+    /* border-left: 1px solid #ddd; */
+    padding: 8px;
+    text-align: right;
+  }
+  .firstCol{
+    text-align: left;
+  }
+  .firstCol {
+    font-weight: 600;
+  }
+
+  .Table{
+    border: 1px solid black;
+    height: 50vh;
+    margin-top: 20px ;
+    margin-left: 30px;
+    margin-right: 30px;
+    width:38%;
+    /* background-color: aqua; */
+  }
+
+  
+  .TableContent{
+    width: 100%;
+    margin-left: 0px;
+    height: 80%;
+    margin-top: -1px;
+  }
+  
+
+  .dashBoard{
+    display:  flex;
+
+   
+  }
+
+  
+  .TableHeading{
+    border-top: 1px solid rgb(225, 220, 220);
+  }
+
+  .togglebtn{
+    display: flex;
+   
+    margin-top: 30px;
+    float: right;
+     margin-right: 20px;
+     
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    
+  .Table{
+    width: 80%;
+    margin-left: 15px;
+  }
+ 
+    .TableContent {
+      width: 100%;
+      /* Adjust styles for small screens */
+    }
+   
+  .dashBoard{
+    display:  flex;
+flex-direction: column;
+   
+  }
+  
+  }
+
+  @media only screen and (min-width: 601px) and (max-width:1024px) {
+    
+    
+  
+    .Table{
+      width: 60%;
+      margin-left: 15px;
+    }
+    .TableContent {
+      width: 100%;
+     
+    }
+  }
